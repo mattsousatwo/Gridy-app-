@@ -10,9 +10,32 @@ import UIKit
 
 class IntoVC: UIViewController {
 
+    @IBOutlet weak var pickButton: UIButton!
+    
+    @IBOutlet weak var cameraButton: UIButton!
+    
+    @IBOutlet weak var photoLibraryButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // Rounding Button edges
+        pickButton.layer.cornerRadius = 10
+        pickButton.clipsToBounds = true
+        cameraButton.layer.cornerRadius = 10
+        cameraButton.clipsToBounds = true
+        photoLibraryButton.layer.cornerRadius = 10
+        photoLibraryButton.clipsToBounds = true
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         // Do any additional setup after loading the view.
     }
     
