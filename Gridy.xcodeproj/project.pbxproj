@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		615571F621DA92BB006C2CAC /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615571F521DA92BB006C2CAC /* ImageEditorView.swift */; };
+		61715DE521E85E88007150DE /* PlayFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61715DE421E85E88007150DE /* PlayFieldViewController.swift */; };
 		618C741821AF341D003A62D2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C741721AF341D003A62D2 /* HomeVC.swift */; };
 		619DDC2721E7D3DE0033642B /* SclicingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DDC2621E7D3DE0033642B /* SclicingImages.swift */; };
 		61DBA69B219C976E00384503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBA69A219C976E00384503 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		615571F521DA92BB006C2CAC /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageEditorView.swift; path = Gridy/ImageEditorView.swift; sourceTree = "<group>"; };
+		61715DE421E85E88007150DE /* PlayFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayFieldViewController.swift; path = Gridy/PlayFieldViewController.swift; sourceTree = "<group>"; };
 		618C741721AF341D003A62D2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = Gridy/HomeVC.swift; sourceTree = "<group>"; };
 		619DDC2621E7D3DE0033642B /* SclicingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SclicingImages.swift; sourceTree = "<group>"; };
 		61DBA697219C976E00384503 /* Gridy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gridy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 			children = (
 				618C741721AF341D003A62D2 /* HomeVC.swift */,
 				615571F521DA92BB006C2CAC /* ImageEditorView.swift */,
+				61715DE421E85E88007150DE /* PlayFieldViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61715DE521E85E88007150DE /* PlayFieldViewController.swift in Sources */,
 				619DDC2721E7D3DE0033642B /* SclicingImages.swift in Sources */,
 				618C741821AF341D003A62D2 /* HomeVC.swift in Sources */,
 				615571F621DA92BB006C2CAC /* ImageEditorView.swift in Sources */,
