@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610FCD46220E908E000FD50E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FCD45220E908E000FD50E /* Tile.swift */; };
 		615571F621DA92BB006C2CAC /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615571F521DA92BB006C2CAC /* ImageEditorView.swift */; };
 		61715DE521E85E88007150DE /* PlayFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61715DE421E85E88007150DE /* PlayFieldViewController.swift */; };
 		618C741821AF341D003A62D2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C741721AF341D003A62D2 /* HomeVC.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610FCD45220E908E000FD50E /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		615571F521DA92BB006C2CAC /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageEditorView.swift; path = Gridy/ImageEditorView.swift; sourceTree = "<group>"; };
 		61715DE421E85E88007150DE /* PlayFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayFieldViewController.swift; path = Gridy/PlayFieldViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		618C741721AF341D003A62D2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = Gridy/HomeVC.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				619DDC2621E7D3DE0033642B /* SclicingImages.swift */,
 				61C787B021F2DC310097AF0F /* GameStructure.swift */,
+				610FCD45220E908E000FD50E /* Tile.swift */,
 			);
 			name = Model;
 			path = Gridy/Model;
@@ -183,6 +186,7 @@
 				61715DE521E85E88007150DE /* PlayFieldViewController.swift in Sources */,
 				619DDC2721E7D3DE0033642B /* SclicingImages.swift in Sources */,
 				618C741821AF341D003A62D2 /* HomeVC.swift in Sources */,
+				610FCD46220E908E000FD50E /* Tile.swift in Sources */,
 				615571F621DA92BB006C2CAC /* ImageEditorView.swift in Sources */,
 				61DBA69B219C976E00384503 /* AppDelegate.swift in Sources */,
 				61C787B121F2DC310097AF0F /* GameStructure.swift in Sources */,
