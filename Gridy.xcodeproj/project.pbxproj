@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		610FCD46220E908E000FD50E /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FCD45220E908E000FD50E /* Tile.swift */; };
-		613D6141224E9F9F00F4941C /* GridSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613D6140224E9F9F00F4941C /* GridSetUp.swift */; };
 		615571F621DA92BB006C2CAC /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615571F521DA92BB006C2CAC /* ImageEditorView.swift */; };
 		61715DE521E85E88007150DE /* PlayFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61715DE421E85E88007150DE /* PlayFieldViewController.swift */; };
+		618345FD2261A4BB003E72CF /* GameOverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618345FC2261A4BB003E72CF /* GameOverVC.swift */; };
 		618C741821AF341D003A62D2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C741721AF341D003A62D2 /* HomeVC.swift */; };
 		619DDC2721E7D3DE0033642B /* SclicingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DDC2621E7D3DE0033642B /* SclicingImages.swift */; };
 		61C787B121F2DC310097AF0F /* GameStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C787B021F2DC310097AF0F /* GameStructure.swift */; };
@@ -22,9 +22,9 @@
 
 /* Begin PBXFileReference section */
 		610FCD45220E908E000FD50E /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
-		613D6140224E9F9F00F4941C /* GridSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridSetUp.swift; sourceTree = "<group>"; };
 		615571F521DA92BB006C2CAC /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageEditorView.swift; path = Gridy/ImageEditorView.swift; sourceTree = "<group>"; };
 		61715DE421E85E88007150DE /* PlayFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayFieldViewController.swift; path = Gridy/PlayFieldViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		618345FC2261A4BB003E72CF /* GameOverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverVC.swift; sourceTree = "<group>"; };
 		618C741721AF341D003A62D2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = Gridy/HomeVC.swift; sourceTree = "<group>"; };
 		619DDC2621E7D3DE0033642B /* SclicingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SclicingImages.swift; sourceTree = "<group>"; };
 		61C787B021F2DC310097AF0F /* GameStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStructure.swift; sourceTree = "<group>"; };
@@ -64,6 +64,7 @@
 				618C741721AF341D003A62D2 /* HomeVC.swift */,
 				615571F521DA92BB006C2CAC /* ImageEditorView.swift */,
 				61715DE421E85E88007150DE /* PlayFieldViewController.swift */,
+				618345FC2261A4BB003E72CF /* GameOverVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -82,7 +83,6 @@
 				619DDC2621E7D3DE0033642B /* SclicingImages.swift */,
 				61C787B021F2DC310097AF0F /* GameStructure.swift */,
 				610FCD45220E908E000FD50E /* Tile.swift */,
-				613D6140224E9F9F00F4941C /* GridSetUp.swift */,
 			);
 			name = Model;
 			path = Gridy/Model;
@@ -187,13 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				61715DE521E85E88007150DE /* PlayFieldViewController.swift in Sources */,
-				613D6141224E9F9F00F4941C /* GridSetUp.swift in Sources */,
 				619DDC2721E7D3DE0033642B /* SclicingImages.swift in Sources */,
 				618C741821AF341D003A62D2 /* HomeVC.swift in Sources */,
 				610FCD46220E908E000FD50E /* Tile.swift in Sources */,
 				615571F621DA92BB006C2CAC /* ImageEditorView.swift in Sources */,
 				61DBA69B219C976E00384503 /* AppDelegate.swift in Sources */,
 				61C787B121F2DC310097AF0F /* GameStructure.swift in Sources */,
+				618345FD2261A4BB003E72CF /* GameOverVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
