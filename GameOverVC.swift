@@ -34,6 +34,9 @@ class GameOverVC: UIViewController {
     // Play Again - unwind to homeVC, delete game parameters
     @IBAction func playAgainButton(_ sender: Any) {
         print("o-> Play Again Pressed")
+        
+        performSegue(withIdentifier: "unwindFromGameOverVC", sender: self)
+        
     }
     
     // Add UIView to boarder ImageView
